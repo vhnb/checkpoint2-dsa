@@ -8,11 +8,16 @@ int main()
 
     int valor;
     printf("Digite um número entre 1 a 6\n");
+    printf("1 - Inserir notas\n");
+    printf("2 - Calcular media\n");
+    printf("3 - Verificar situacao\n");
+    printf("4 - Exibir resultado\n");
+    printf("5 - Calcular derivada\n");
+    
     scanf("%d", valor);
 
     switch (valor)
     {
-
     case 1:
         float nota1 = 0;
         printf("digite a sua primeira nota: \n");
