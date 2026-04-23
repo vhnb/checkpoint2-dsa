@@ -58,6 +58,9 @@ int main()
 
         scanf("%f", &A);
 
+        printf("Digite o parâmetro para B: \n");
+
+        scanf("%f", &B);
         break;
     default:
         break;
