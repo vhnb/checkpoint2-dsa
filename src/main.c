@@ -71,6 +71,7 @@ int main()
         printf("f(x) = %.2fx + %.2f\n", calc, B);
         break;
     default:
+        printf("Sair");
         break;
     }
 }
