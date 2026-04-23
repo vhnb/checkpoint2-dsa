@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-    float nota1, nota2, media
+    float nota1, nota2, media;
 
     printf("Digite a primeira nota: ");
     scanf("%f", &nota1);
