@@ -2,9 +2,12 @@
 
 int main() {
     printf("===================================\n");
-    printf("          sistema Equipe 1         \n");
+    printf("          Sistema Equipe 1         \n");
     printf("===================================\n");
-    
+
+    int valor;
+    printf("Digite um número entre 1 a 6\n");
+
     float nota1 = 0;
      printf("digite a sua primeira nota: \n");
      scanf("%f", &nota1);
