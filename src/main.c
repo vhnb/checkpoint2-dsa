@@ -7,6 +7,7 @@ int main() {
 
     int valor;
     printf("Digite um número entre 1 a 6\n");
+    scanf("%d", valor);
 
     float nota1 = 0;
      printf("digite a sua primeira nota: \n");
