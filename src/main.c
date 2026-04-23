@@ -5,8 +5,12 @@ int main() {
     printf("          sistema Equipe 1         \n");
     printf("===================================\n");
     
-    int nota1 = 0;
+    float nota1 = 0;
      printf("digite a sua primeira nota: \n");
-     scanf("%d", &nota1);
+     scanf("%f", &nota1);
+
+         float nota2 = 0;
+     printf("digite a sua segunda nota: \n");
+     scanf("%f", &nota2);
     
 }
