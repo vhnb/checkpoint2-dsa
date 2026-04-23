@@ -61,6 +61,14 @@ int main()
         printf("Digite o parâmetro para B: \n");
 
         scanf("%f", &B);
+
+        printf("Digite o parâmetro para C: \n");
+
+        scanf("%f", &C);
+
+        calc = A * 2;
+
+        printf("f(x) = %.2fx + %.2f\n", calc, B);
         break;
     default:
         break;
