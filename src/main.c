@@ -45,7 +45,20 @@ int main()
 
         printf("A média é igual à: %f", media);
         break;
-    
+
+    case 5:
+
+        float A, B, C;
+
+        float calc;
+
+        printf("f(x) = 2ax + b\n");
+
+        printf("Digite o parâmetro para A: \n");
+
+        scanf("%f", &A);
+
+        break;
     default:
         break;
     }
